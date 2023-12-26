@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>
+          <img
+            src="todo.png"
+            alt="img todo"
+            width="30px"
+            height="30px"
+          />Todolist
+        </h2>
+        <div style="display: flex">
+          <div class="row">
+            <input type="text" id="input-box" placeholder="Tulis Disini" />
+          </div>
+          <button onclick="addtask()">add</button>
+        </div>
+
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
